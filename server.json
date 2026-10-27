@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.powermyanalytics/mcp",
+  "title": "Power My Analytics",
+  "description": "Query warehoused Google Ads, Meta, GA4, Shopify, HubSpot and 85+ marketing sources in one place.",
+  "version": "1.0.1",
+  "websiteUrl": "https://www.powermyanalytics.com/integrations/mcp/",
+  "icons": [
+    {
+      "src": "https://www.powermyanalytics.com/images/pma_mark500.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "500x500"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.powermyanalytics.com/mcp"
+    }
+  ]
+}
